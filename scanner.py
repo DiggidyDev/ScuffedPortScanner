@@ -15,10 +15,9 @@ class clr:
     BLUE    = "\033[94m"
     FAIL    = "\033[91m"
     GREEN   = "\033[92m" 
+    RESET   = "\033[0m"
     WARNING = "\033[93m"
     
-    RESET   = "\033[0m"
-
 
 # Outputting a list of given args in a "banner"
 # Also can take in an iterable as one of the args
